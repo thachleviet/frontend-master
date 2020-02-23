@@ -1,0 +1,42 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+ }
+ /* CSS HEADER  */
+.shopee-header{
+    height:120px; 
+    width:100%; 
+    background:rgb(112, 170, 25);
+    position: relative;
+    min-width: inherit;
+ }
+ .shopee-container-wrapper{
+    width:inherit; 
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    align-items: center;
+    padding: 4px;
+ }
+ .wrapper-left{
+    width: auto;
+    float: left;
+ }  
+ .shopee-container-wrapper a{
+    color: white;
+    border-right:2px solid hsla(0,0%,100%,.22); 
+    padding: 0 .4375rem;
+    font-size: .9125rem;
+    text-decoration: none;
+ }
+ .shopee-container-wrapper span.sosial{background: white;padding: 4px;font-size: 15px;font-weight: bold;border-radius: 50%;color:#87B345;}
+ .wrapper-left a:last-child { border-right: none;  }
+ .wrapper-right a:last-child { border-right: none;  }
+ .wrapper-right{width: auto;float: right;}
